@@ -18,3 +18,20 @@ body {
     width: 100%;
     box-sizing:border-box;
 }
+
+.charctr {
+    position:absolute;
+    top: 32%;
+    left: 60%;
+    scale: 15%;
+    animation: Breathe 4s linear infinite;
+}
+
+@keyframes Breathe {
+    0%, 100% {
+      transform: rotate(-0.5deg);
+    }
+    50% {
+      transform: rotate(0.5deg);
+    }
+}
